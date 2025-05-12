@@ -1,0 +1,86 @@
+{
+    "playlist_name": "My Artimix Playlist",
+    "track_uris": [
+        "spotify:track:0r6SUC6Twx4xJUvKbcBElt",
+        "spotify:track:0HUGL7rKvVtVV0VhFqGMZO",
+        "spotify:track:6wAEsunxxYoRtbRDzfkI4d",
+        "spotify:track:7bp6ujKKAl1tOC8d2WoVQs",
+        "spotify:track:04SUDTPu6sjn1Qvqaf5vdW",
+        "spotify:track:4NxpOqGhq0ZF8hn8E888jn",
+        "spotify:track:38sxnZHif13WONhbFunvfh",
+        "spotify:track:2iNVYpWvsRjpuR4b7kDKgX",
+        "spotify:track:0Bu0xzj6Y3DP4sr0t53x2C",
+        "spotify:track:0ycAPiJ2of5da8WL4kENIz"
+    ],
+    "artist_contributions": [
+        {
+            "name": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb2dbba9ab02ebb745114a6723",
+            "count": 10,
+            "requested_percentage": 10
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:0r6SUC6Twx4xJUvKbcBElt",
+            "name": "Z:irnitra",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3902cebfef41bf25f665e7f"
+        },
+        {
+            "uri": "spotify:track:0HUGL7rKvVtVV0VhFqGMZO",
+            "name": "When you say Hai this song is gonna be go insanely fast",
+            "artists_str": "Camellia, Nanahira",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ebcb05a6d1b7ccecbfebd9ad"
+        },
+        {
+            "uri": "spotify:track:6wAEsunxxYoRtbRDzfkI4d",
+            "name": "Dragon Temple",
+            "artists_str": "Camellia, Toby Fox",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27314440fe0b4cbb08b60b3ec41"
+        },
+        {
+            "uri": "spotify:track:7bp6ujKKAl1tOC8d2WoVQs",
+            "name": "CICADA3302",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731d3890de53ed676047ca3629"
+        },
+        {
+            "uri": "spotify:track:04SUDTPu6sjn1Qvqaf5vdW",
+            "name": "The Cat Evolved Into The Microwave-proof Cat!",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731d3890de53ed676047ca3629"
+        },
+        {
+            "uri": "spotify:track:4NxpOqGhq0ZF8hn8E888jn",
+            "name": "Breath of the Dragon",
+            "artists_str": "Camellia, Toby Fox",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27314440fe0b4cbb08b60b3ec41"
+        },
+        {
+            "uri": "spotify:track:38sxnZHif13WONhbFunvfh",
+            "name": "Something Is Off",
+            "artists_str": "Camellia, Temmie Chang",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27314440fe0b4cbb08b60b3ec41"
+        },
+        {
+            "uri": "spotify:track:2iNVYpWvsRjpuR4b7kDKgX",
+            "name": "EN\u00dbMA\u2207ELI\u0160 - Camellia Saga",
+            "artists_str": "Camellia, Gram",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731f660ec3675ea571aaca9cec"
+        },
+        {
+            "uri": "spotify:track:0Bu0xzj6Y3DP4sr0t53x2C",
+            "name": "t / a/n / a/s / i/n / n",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731d3890de53ed676047ca3629"
+        },
+        {
+            "uri": "spotify:track:0ycAPiJ2of5da8WL4kENIz",
+            "name": "GHOUL",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2731d3890de53ed676047ca3629"
+        }
+    ],
+    "total_songs_in_playlist": 10
+}

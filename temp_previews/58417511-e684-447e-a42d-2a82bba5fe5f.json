@@ -1,0 +1,58 @@
+{
+    "playlist_name": "My Artimix Playlist",
+    "track_uris": [
+        "spotify:track:5bUVHuzQh5mkvMPjUU074i",
+        "spotify:track:4ER4wjup2235bo63RU4KvS",
+        "spotify:track:6ocxCGYgcmZhCeTT1yuNkt",
+        "spotify:track:7vXnfKmzcCXJgRei61vmIc",
+        "spotify:track:08sDUZZXMgLlaDVysEYxIw",
+        "spotify:track:71XhXay6rKPZCVAaDtFlSR"
+    ],
+    "artist_contributions": [
+        {
+            "name": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ccb108f19352e88d6e69b1093d75a2be5efa1c99",
+            "count": 6,
+            "requested_percentage": 10
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:5bUVHuzQh5mkvMPjUU074i",
+            "name": "No Woman, No Cry",
+            "artists_str": "Fugees, Wyclef Jean",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735b7865be7f7fcc05faec6137"
+        },
+        {
+            "uri": "spotify:track:4ER4wjup2235bo63RU4KvS",
+            "name": "Adam Lives In Theory - Live",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273eaa1ace5a36e15f160c6258b"
+        },
+        {
+            "uri": "spotify:track:6ocxCGYgcmZhCeTT1yuNkt",
+            "name": "I Gotta Find Peace of Mind - Live",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273eaa1ace5a36e15f160c6258b"
+        },
+        {
+            "uri": "spotify:track:7vXnfKmzcCXJgRei61vmIc",
+            "name": "I Remember - Live",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273eaa1ace5a36e15f160c6258b"
+        },
+        {
+            "uri": "spotify:track:08sDUZZXMgLlaDVysEYxIw",
+            "name": "Intro - Live",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273eaa1ace5a36e15f160c6258b"
+        },
+        {
+            "uri": "spotify:track:71XhXay6rKPZCVAaDtFlSR",
+            "name": "Lost Ones",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        }
+    ],
+    "total_songs_in_playlist": 6
+}

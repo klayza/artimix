@@ -1,0 +1,253 @@
+{
+    "playlist_name": "Workout [amx]",
+    "track_uris": [
+        "spotify:track:4sjfACDJGLhTWJohCuoXR8",
+        "spotify:track:76zrwGMdbtxwZwkRzWXa35",
+        "spotify:track:7zRJiZ5I415rwLe5p4dksi",
+        "spotify:track:20USvDcWoUlGiVn3iMukdB",
+        "spotify:track:00cylsI9TEJKnCp8xrw746",
+        "spotify:track:0xvhcQ1WE9140Zndrh3wVL",
+        "spotify:track:3FFDBbDxnHNZKdQwx2HPjE",
+        "spotify:track:4HntG3WOZFqZ26jJXYrod3",
+        "spotify:track:0vxTKTxKoTmljpT7gb4U1h",
+        "spotify:track:0VvDHvslcRdoHJFgfW8DTm",
+        "spotify:track:34QTgJPSf9Nvpw3NrlX8pu",
+        "spotify:track:0uI7MhOi8CgPswtdlScSR0",
+        "spotify:track:6gtJPqupZVeNW3ndIAUEYP",
+        "spotify:track:2eXJRM1lQJ591AStNA26Yx",
+        "spotify:track:5ICBmeHqTV0ZT2h1QPEbRn",
+        "spotify:track:477dkSTbQ7jYtmfNdJydcN",
+        "spotify:track:1k8oco8QolT6g0EqeL3WUP",
+        "spotify:track:7x6hO9VMAee9x1iWaeNkL6",
+        "spotify:track:7t86fVeDAd63ThaR0ZkxXS",
+        "spotify:track:5bUVHuzQh5mkvMPjUU074i",
+        "spotify:track:0uEp9E98JB5awlA084uaIg",
+        "spotify:track:0TGyMhttuNwKab2XJMJ1rl",
+        "spotify:track:0D6nxVnZR6JUdesot7X7jJ",
+        "spotify:track:1wjNeiqNI6gXr8MJgnVIo2",
+        "spotify:track:2olIQt0rL0hOHau1SJ4xf2",
+        "spotify:track:3IRdgbdqDcmJBIa6TY2mKX",
+        "spotify:track:12Y1GaS44vga0G3rUtjFAY",
+        "spotify:track:1oOutT2h9QZq1BMuilU42Q",
+        "spotify:track:3RJzrw490F6J3bMW5x2ZUw",
+        "spotify:track:1Q0lOGB52skgfzdcq233vs",
+        "spotify:track:73WCj2n7X2hHEvqrZ6egJ2",
+        "spotify:track:4ZRnZPBLGoRZQKZhFvTc7S",
+        "spotify:track:0lLNQUXKhQiwppDbr6D5z8",
+        "spotify:track:4r7zVBlEkdSKU4HPZtm36S",
+        "spotify:track:6csR3yrfPS2i8qD9XXVPG3",
+        "spotify:track:5zfKVP7y82MZNBRdVwdNGv",
+        "spotify:track:3FhsvKkmzREGo7DvrNIXCM",
+        "spotify:track:5QvnkG3CTE15m5KXnq2R8s",
+        "spotify:track:4SNLO8jxQEeeNUnjCoMMdR"
+    ],
+    "artist_contributions": [
+        {
+            "name": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ccb108f19352e88d6e69b1093d75a2be5efa1c99",
+            "count": 13,
+            "requested_percentage": 30
+        },
+        {
+            "name": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb2dbba9ab02ebb745114a6723",
+            "count": 17,
+            "requested_percentage": 12
+        },
+        {
+            "name": "Daft Punk",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebdc93bb227980211b325b9d70",
+            "count": 3,
+            "requested_percentage": 5
+        },
+        {
+            "name": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebfb79889b6a5bee812026c362",
+            "count": 6,
+            "requested_percentage": 30
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:4sjfACDJGLhTWJohCuoXR8",
+            "name": "+ERABY+E CONNEC+10N",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f9cfbf4187cef596c5f8df9c"
+        },
+        {
+            "uri": "spotify:track:76zrwGMdbtxwZwkRzWXa35",
+            "name": "Feeling Good",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2733cc349906430d0f09e462100"
+        },
+        {
+            "uri": "spotify:track:7zRJiZ5I415rwLe5p4dksi",
+            "name": "SECRET BOSS",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273fdb948e7d4590313b9221eee"
+        },
+        {
+            "uri": "spotify:track:20USvDcWoUlGiVn3iMukdB",
+            "name": "Last Summer's Break",
+            "artists_str": "Dale North",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c7f5e167ed9ea889c62ca8f6"
+        },
+        {
+            "uri": "spotify:track:00cylsI9TEJKnCp8xrw746",
+            "name": "GAS GAS GAS - Yuta Imai Remix",
+            "artists_str": "Manuel, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27331fc4f77b24115e031db839a"
+        },
+        {
+            "uri": "spotify:track:0xvhcQ1WE9140Zndrh3wVL",
+            "name": "Acid Kitty",
+            "artists_str": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273a7a9b8e2cfc5a9c0f8611392"
+        },
+        {
+            "uri": "spotify:track:3FFDBbDxnHNZKdQwx2HPjE",
+            "name": "The Beast - includes Chinese restaurant skit",
+            "artists_str": "Fugees, Ms. Lauryn Hill, Wyclef Jean, Pras",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735b7865be7f7fcc05faec6137"
+        },
+        {
+            "uri": "spotify:track:4HntG3WOZFqZ26jJXYrod3",
+            "name": "GHOST",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27386e5002e1303006721417092"
+        },
+        {
+            "uri": "spotify:track:0vxTKTxKoTmljpT7gb4U1h",
+            "name": "Guarding The Gates - From \"Queen & Slim: The Soundtrack\"",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2736aafffa29db1524c964a367a"
+        },
+        {
+            "uri": "spotify:track:0VvDHvslcRdoHJFgfW8DTm",
+            "name": "Item Jingle",
+            "artists_str": "Dale North",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c7f5e167ed9ea889c62ca8f6"
+        },
+        {
+            "uri": "spotify:track:34QTgJPSf9Nvpw3NrlX8pu",
+            "name": "Intro",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        },
+        {
+            "uri": "spotify:track:0uI7MhOi8CgPswtdlScSR0",
+            "name": "Ambergris",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27328a78b1eac2c2a49d18fcd5b"
+        },
+        {
+            "uri": "spotify:track:6gtJPqupZVeNW3ndIAUEYP",
+            "name": "BULK UP",
+            "artists_str": "USAO, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273448e09620cf18012c345f7e4"
+        },
+        {
+            "uri": "spotify:track:2eXJRM1lQJ591AStNA26Yx",
+            "name": "Giorgio by Moroder",
+            "artists_str": "Daft Punk",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2733c196ec7c5344d654ff552e9"
+        },
+        {
+            "uri": "spotify:track:5ICBmeHqTV0ZT2h1QPEbRn",
+            "name": "GET FREE",
+            "artists_str": "Yuta Imai, Kobaryo",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735a77bee529837bf8380ec9a3"
+        },
+        {
+            "uri": "spotify:track:477dkSTbQ7jYtmfNdJydcN",
+            "name": "Yoki's House",
+            "artists_str": "Camellia, Toby Fox",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27314440fe0b4cbb08b60b3ec41"
+        },
+        {
+            "uri": "spotify:track:1k8oco8QolT6g0EqeL3WUP",
+            "name": "FORGIVE (feat. RANASOL)",
+            "artists_str": "Yuta Imai, RANASOL",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27382fc19527c8739e1b1fd6bd6"
+        },
+        {
+            "uri": "spotify:track:7x6hO9VMAee9x1iWaeNkL6",
+            "name": "To Zion (feat. Carlos Santana)",
+            "artists_str": "Ms. Lauryn Hill, Carlos Santana",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        },
+        {
+            "uri": "spotify:track:7t86fVeDAd63ThaR0ZkxXS",
+            "name": "Everything Is Everything",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        },
+        {
+            "uri": "spotify:track:5bUVHuzQh5mkvMPjUU074i",
+            "name": "No Woman, No Cry",
+            "artists_str": "Fugees, Wyclef Jean",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2735b7865be7f7fcc05faec6137"
+        },
+        {
+            "uri": "spotify:track:0uEp9E98JB5awlA084uaIg",
+            "name": "Doo Wop (That Thing)",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        },
+        {
+            "uri": "spotify:track:0TGyMhttuNwKab2XJMJ1rl",
+            "name": "Coming Home (feat. Ms. Lauryn Hill)",
+            "artists_str": "Pusha T, Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2734c67db8957750881bf2c0231"
+        },
+        {
+            "uri": "spotify:track:0D6nxVnZR6JUdesot7X7jJ",
+            "name": "Sswwiinnddlleerr!!",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27328a78b1eac2c2a49d18fcd5b"
+        },
+        {
+            "uri": "spotify:track:1wjNeiqNI6gXr8MJgnVIo2",
+            "name": "Human After All - Alter Ego Remix",
+            "artists_str": "Daft Punk, Alter Ego",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27385441f50297029e82ae5c01c"
+        },
+        {
+            "uri": "spotify:track:2olIQt0rL0hOHau1SJ4xf2",
+            "name": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+            "artists_str": "Daft Punk, Pharrell Williams, Nile Rodgers",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2733c196ec7c5344d654ff552e9"
+        },
+        {
+            "uri": "spotify:track:3IRdgbdqDcmJBIa6TY2mKX",
+            "name": "I Used to Love Him (feat. Mary J. Blige)",
+            "artists_str": "Ms. Lauryn Hill, Mary J. Blige",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        },
+        {
+            "uri": "spotify:track:12Y1GaS44vga0G3rUtjFAY",
+            "name": "The Miseducation of Lauryn Hill",
+            "artists_str": "Ms. Lauryn Hill",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        },
+        {
+            "uri": "spotify:track:1oOutT2h9QZq1BMuilU42Q",
+            "name": "D.C. Al Coda",
+            "artists_str": "M-Project, Mayumi Morinaga",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27357c8c4dfa6e14f80644912f6"
+        },
+        {
+            "uri": "spotify:track:3RJzrw490F6J3bMW5x2ZUw",
+            "name": "[ns]",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273aacd5b45c7c81f7cb284d1a3"
+        },
+        {
+            "uri": "spotify:track:1Q0lOGB52skgfzdcq233vs",
+            "name": "Nothing Even Matters (feat. D'Angelo)",
+            "artists_str": "Ms. Lauryn Hill, D'Angelo",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9"
+        }
+    ],
+    "total_songs_in_playlist": 39
+}

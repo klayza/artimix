@@ -1,0 +1,113 @@
+{
+    "playlist_name": "My Artimix Playlist",
+    "track_uris": [
+        "spotify:track:2OQgJWeNVVZci3CaXlnBG6",
+        "spotify:track:6sRx0CJQXsQwUDQvMM7i4Z",
+        "spotify:track:4wNsiTaDnWDMhMQIbfbEi1",
+        "spotify:track:6FBbeiRPHucvEpqyFkf6Sc",
+        "spotify:track:55ESNRVw6KoMdv4U6zcpSY",
+        "spotify:track:7gGqFkX7PAky9eDEC1z6BU",
+        "spotify:track:2orF6SWR4xO9GLqlgboyq3",
+        "spotify:track:18mf91RACKpcxukBH17etx",
+        "spotify:track:6GIuxM8CbXr8FzheAjcq7Y",
+        "spotify:track:4hdlB1EbjDNhCk7ZC9NYHr",
+        "spotify:track:0P8ELcOkkqZvTxmMrn7psD",
+        "spotify:track:2P3xsOOJEne6OrvRDt0VDD",
+        "spotify:track:44jMW0V2wWHZ2N4sORerIM"
+    ],
+    "artist_contributions": [
+        {
+            "name": "Solo Artist Saxx",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebacb6a1310cd73308c2af0c5b",
+            "count": 3,
+            "requested_percentage": 10
+        },
+        {
+            "name": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebbd456f9ba83445971af3d6a6",
+            "count": 10,
+            "requested_percentage": 30
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:2OQgJWeNVVZci3CaXlnBG6",
+            "name": "Knox 2nd",
+            "artists_str": "Jorei, Akeos",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2730023d23254c7ba87c9175786"
+        },
+        {
+            "uri": "spotify:track:6sRx0CJQXsQwUDQvMM7i4Z",
+            "name": "FUK SAUCE",
+            "artists_str": "Solo Artist Saxx, MR CHEEKS",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273332cb4f5b68ede52a9688d1a"
+        },
+        {
+            "uri": "spotify:track:4wNsiTaDnWDMhMQIbfbEi1",
+            "name": "Eternal Night",
+            "artists_str": "Jorei, BearPoint!",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273b5bc9a6d1c10a6da7917d210"
+        },
+        {
+            "uri": "spotify:track:6FBbeiRPHucvEpqyFkf6Sc",
+            "name": "BUILT 4 DIZ",
+            "artists_str": "Solo Artist Saxx",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f920474251accdd914f2f04c"
+        },
+        {
+            "uri": "spotify:track:55ESNRVw6KoMdv4U6zcpSY",
+            "name": "Kusari Unparallel",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2736cc7f05c0cd416fbff99ec8f"
+        },
+        {
+            "uri": "spotify:track:7gGqFkX7PAky9eDEC1z6BU",
+            "name": "Uninvited Guest",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273007205c0bf79e145535c93b1"
+        },
+        {
+            "uri": "spotify:track:2orF6SWR4xO9GLqlgboyq3",
+            "name": "Da-Truth Pt. 2",
+            "artists_str": "Solo Artist Saxx",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27312d405773cb37bc1f72f9f0e"
+        },
+        {
+            "uri": "spotify:track:18mf91RACKpcxukBH17etx",
+            "name": "Gabberfish",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2736cc7f05c0cd416fbff99ec8f"
+        },
+        {
+            "uri": "spotify:track:6GIuxM8CbXr8FzheAjcq7Y",
+            "name": "Knox 7th",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2730023d23254c7ba87c9175786"
+        },
+        {
+            "uri": "spotify:track:4hdlB1EbjDNhCk7ZC9NYHr",
+            "name": "Cobwebs",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f034c52d6ed714ef48924075"
+        },
+        {
+            "uri": "spotify:track:0P8ELcOkkqZvTxmMrn7psD",
+            "name": "Bestowed Reasoning",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2736279e2bc91b4cda1e62a6a97"
+        },
+        {
+            "uri": "spotify:track:2P3xsOOJEne6OrvRDt0VDD",
+            "name": "Death Plums",
+            "artists_str": "Jorei",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f034c52d6ed714ef48924075"
+        },
+        {
+            "uri": "spotify:track:44jMW0V2wWHZ2N4sORerIM",
+            "name": "Helical",
+            "artists_str": "Jorei, viwiv",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f034c52d6ed714ef48924075"
+        }
+    ],
+    "total_songs_in_playlist": 13
+}

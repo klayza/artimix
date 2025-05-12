@@ -1,0 +1,58 @@
+{
+    "playlist_name": "My Artimix Playlist",
+    "track_uris": [
+        "spotify:track:7pLOFagNXiaQu9XMi5bLoB",
+        "spotify:track:0NSml3xPlzTidIMscaTTHQ",
+        "spotify:track:4gqTC1qq0dQxZ2sGMqfZgo",
+        "spotify:track:3Eym5NE90LNsYtmID3jY2O",
+        "spotify:track:6ddMZp81Rnws1m9oSCrEWy",
+        "spotify:track:3VhoWRNYDGQWE97wLmk70j"
+    ],
+    "artist_contributions": [
+        {
+            "name": "CamelPhat",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebe0c8d6a782cdb4187beded9b",
+            "count": 6,
+            "requested_percentage": 11
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:7pLOFagNXiaQu9XMi5bLoB",
+            "name": "Not Over Yet (feat. Noel Gallagher)",
+            "artists_str": "CamelPhat, Noel Gallagher",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3866855759dc9d16091b315"
+        },
+        {
+            "uri": "spotify:track:0NSml3xPlzTidIMscaTTHQ",
+            "name": "Dance with My Ghost (feat. Elderbrook)",
+            "artists_str": "CamelPhat, Elderbrook",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3866855759dc9d16091b315"
+        },
+        {
+            "uri": "spotify:track:4gqTC1qq0dQxZ2sGMqfZgo",
+            "name": "Compute",
+            "artists_str": "CamelPhat, Ali Love",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737c07b1e9df93f84394007555"
+        },
+        {
+            "uri": "spotify:track:3Eym5NE90LNsYtmID3jY2O",
+            "name": "Witching Hour",
+            "artists_str": "CamelPhat, Will Easton",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3866855759dc9d16091b315"
+        },
+        {
+            "uri": "spotify:track:6ddMZp81Rnws1m9oSCrEWy",
+            "name": "Endlessly",
+            "artists_str": "CamelPhat, Nadia Ali",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273668fc94549b0ddad551c7a3f"
+        },
+        {
+            "uri": "spotify:track:3VhoWRNYDGQWE97wLmk70j",
+            "name": "Rennen",
+            "artists_str": "CamelPhat, SOHN",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737c07b1e9df93f84394007555"
+        }
+    ],
+    "total_songs_in_playlist": 6
+}

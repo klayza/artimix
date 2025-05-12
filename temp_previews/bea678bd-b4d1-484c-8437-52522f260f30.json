@@ -1,0 +1,248 @@
+{
+    "playlist_name": "HAARD",
+    "track_uris": [
+        "spotify:track:0lLNQUXKhQiwppDbr6D5z8",
+        "spotify:track:674xk8ZDWT9a5qqYizvOjE",
+        "spotify:track:4HntG3WOZFqZ26jJXYrod3",
+        "spotify:track:2MF5vvgOHyxxqzJYUHeAVj",
+        "spotify:track:7xGdck3GbTSk7b3uSFQ91w",
+        "spotify:track:3MW6Xx6gp17o4WSuxLj3PN",
+        "spotify:track:6A8XBPH9xjKVC7PqhgWMZr",
+        "spotify:track:6HBznW6Doe0w8WBazMavO5",
+        "spotify:track:0Ww4xWSspmcAO6N8zzaR3d",
+        "spotify:track:0GfBu4Mrirdwlp9uOeQFAH",
+        "spotify:track:00cylsI9TEJKnCp8xrw746",
+        "spotify:track:6TaOHCEjas8b3Mm4tNZ31g",
+        "spotify:track:1f1uBcU78Iyh7GpkcBZxD1",
+        "spotify:track:6JWhtRc5zRT7XY1avQk7cz",
+        "spotify:track:2AVNLl6Q2wEMKVKZVcqger",
+        "spotify:track:5xTN6c9PocPboRnAEyBUmR",
+        "spotify:track:5l9LLkT21xeETTUPaIZaNH",
+        "spotify:track:7dVWG3F4GQmco5MvsL9pzW",
+        "spotify:track:0xvhcQ1WE9140Zndrh3wVL",
+        "spotify:track:76Pnzm0qRQz5iApc9bLTh1",
+        "spotify:track:1k8oco8QolT6g0EqeL3WUP",
+        "spotify:track:6gtJPqupZVeNW3ndIAUEYP",
+        "spotify:track:0dc1UwcMi9xn7qo0XrVVqg",
+        "spotify:track:1z5wfkrtyeO1moXEbubJuN",
+        "spotify:track:1K4iAuwC7o6O2mAb5CqzZn",
+        "spotify:track:4DgTMuDws4VbpXf7VYOJfj",
+        "spotify:track:5QvnkG3CTE15m5KXnq2R8s",
+        "spotify:track:6Ml6PAxcqdZJMI3VpGMWn4",
+        "spotify:track:4RxL0iXcJZcEjDIsrJG17e",
+        "spotify:track:4ZRnZPBLGoRZQKZhFvTc7S",
+        "spotify:track:5IWJosQIBV3oyyAXLYzDI8",
+        "spotify:track:7pMPUBhfKLUAoUH4bnNIQB",
+        "spotify:track:1GtGxu0dvzirTleWZNU7cz",
+        "spotify:track:73WCj2n7X2hHEvqrZ6egJ2",
+        "spotify:track:2agZ04GjWbo6LJTSjMpaBC",
+        "spotify:track:1r44yItBDgwsG4qaKzmemw",
+        "spotify:track:4KbELy26peSNMXZSKJCSyA",
+        "spotify:track:0M4u5hy2qPr8lb6aeQf40B",
+        "spotify:track:17cpDxxceFJ6FmOo7cY04D",
+        "spotify:track:5wEy787VwmAnA7GGhEzjHR",
+        "spotify:track:5ICBmeHqTV0ZT2h1QPEbRn",
+        "spotify:track:4b89XfRcdzi4kVPk7q6LEx",
+        "spotify:track:1F8fcBxh4xSebddNo3dCb3",
+        "spotify:track:5CVNU3dyKpAFEeVpQKz2zD",
+        "spotify:track:3AtQwAbQ9c9KfSFBRah5i8",
+        "spotify:track:5komSp3dSzYbxzHP5fLeT6"
+    ],
+    "artist_contributions": [
+        {
+            "name": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb2dbba9ab02ebb745114a6723",
+            "count": 26,
+            "requested_percentage": 30
+        },
+        {
+            "name": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5ebfb79889b6a5bee812026c362",
+            "count": 20,
+            "requested_percentage": 100
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:0lLNQUXKhQiwppDbr6D5z8",
+            "name": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f9cfbf4187cef596c5f8df9c"
+        },
+        {
+            "uri": "spotify:track:674xk8ZDWT9a5qqYizvOjE",
+            "name": "To The Ones We Hate The Most",
+            "artists_str": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e16578fba23c48cd4808537d"
+        },
+        {
+            "uri": "spotify:track:4HntG3WOZFqZ26jJXYrod3",
+            "name": "GHOST",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27386e5002e1303006721417092"
+        },
+        {
+            "uri": "spotify:track:2MF5vvgOHyxxqzJYUHeAVj",
+            "name": "Ignite - Yuta Imai Remix",
+            "artists_str": "\u96fb\u97f3\u90e8, \u6c60\u888b\u96fb\u97f3\u90e8, MY NEW GEAR, \u96c5\u8cc0\u70c8\u8cc0 (CV: \u77e2\u5439\u771f\u592e), Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273b82ae4f5027916fb27886cda"
+        },
+        {
+            "uri": "spotify:track:7xGdck3GbTSk7b3uSFQ91w",
+            "name": "DEJA VU - Yuta Imai Remix",
+            "artists_str": "dave rodgers, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e5704027299eb6859d6a4e13"
+        },
+        {
+            "uri": "spotify:track:3MW6Xx6gp17o4WSuxLj3PN",
+            "name": "Tokyo Midnight (feat. mami)",
+            "artists_str": "Yuta Imai, Mami",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273a81b8cc88c114801b30c526b"
+        },
+        {
+            "uri": "spotify:track:6A8XBPH9xjKVC7PqhgWMZr",
+            "name": "IS DEAD",
+            "artists_str": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27382fc19527c8739e1b1fd6bd6"
+        },
+        {
+            "uri": "spotify:track:6HBznW6Doe0w8WBazMavO5",
+            "name": "crystallized",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27383f4893147ab774a61d6149c"
+        },
+        {
+            "uri": "spotify:track:0Ww4xWSspmcAO6N8zzaR3d",
+            "name": "Exit This Earth's Atomosphere",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27389533615ce070371ce517403"
+        },
+        {
+            "uri": "spotify:track:0GfBu4Mrirdwlp9uOeQFAH",
+            "name": "Abyss of Frobenioid",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3902cebfef41bf25f665e7f"
+        },
+        {
+            "uri": "spotify:track:00cylsI9TEJKnCp8xrw746",
+            "name": "GAS GAS GAS - Yuta Imai Remix",
+            "artists_str": "Manuel, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27331fc4f77b24115e031db839a"
+        },
+        {
+            "uri": "spotify:track:6TaOHCEjas8b3Mm4tNZ31g",
+            "name": "\u30d2\u30a2\u30bd\u30d3 (feat. \u521d\u97f3\u30df\u30af)",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2732b48211ed1f8553292bdbf5e"
+        },
+        {
+            "uri": "spotify:track:1f1uBcU78Iyh7GpkcBZxD1",
+            "name": "Madd Bleepp",
+            "artists_str": "Quarks",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3902cebfef41bf25f665e7f"
+        },
+        {
+            "uri": "spotify:track:6JWhtRc5zRT7XY1avQk7cz",
+            "name": "Screw // Owo // Screw - Lowong Version",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27328a78b1eac2c2a49d18fcd5b"
+        },
+        {
+            "uri": "spotify:track:2AVNLl6Q2wEMKVKZVcqger",
+            "name": "\u751f\u547d\u6027\u30b7\u30f3\u30c9\u30ed\u30a6\u30e0 (feat. \u521d\u97f3\u30df\u30af)",
+            "artists_str": "Camellia, Hatsune Miku",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e0d4332c0d54787bda9ca823"
+        },
+        {
+            "uri": "spotify:track:5xTN6c9PocPboRnAEyBUmR",
+            "name": "DOPPELT",
+            "artists_str": "Qlarabelle, Maozon, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273abe9fe776786808f86732787"
+        },
+        {
+            "uri": "spotify:track:5l9LLkT21xeETTUPaIZaNH",
+            "name": "Operation: Zenithfall",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2730eea3d2f9049e2335c632bbe"
+        },
+        {
+            "uri": "spotify:track:7dVWG3F4GQmco5MvsL9pzW",
+            "name": "Quicksilver",
+            "artists_str": "Hyun",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27357c8c4dfa6e14f80644912f6"
+        },
+        {
+            "uri": "spotify:track:0xvhcQ1WE9140Zndrh3wVL",
+            "name": "Acid Kitty",
+            "artists_str": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273a7a9b8e2cfc5a9c0f8611392"
+        },
+        {
+            "uri": "spotify:track:76Pnzm0qRQz5iApc9bLTh1",
+            "name": "Acid Kitty",
+            "artists_str": "Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27382fc19527c8739e1b1fd6bd6"
+        },
+        {
+            "uri": "spotify:track:1k8oco8QolT6g0EqeL3WUP",
+            "name": "FORGIVE (feat. RANASOL)",
+            "artists_str": "Yuta Imai, RANASOL",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27382fc19527c8739e1b1fd6bd6"
+        },
+        {
+            "uri": "spotify:track:6gtJPqupZVeNW3ndIAUEYP",
+            "name": "BULK UP",
+            "artists_str": "USAO, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273448e09620cf18012c345f7e4"
+        },
+        {
+            "uri": "spotify:track:0dc1UwcMi9xn7qo0XrVVqg",
+            "name": "\u30af\u30ec\u30a4\u30b8\u30fc0\u6642Play\u30af\u30ec\u30a4\u30b8\u30fc (feat. \u521d\u97f3\u30df\u30af)",
+            "artists_str": "Camellia, Hatsune Miku",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27377d729389f7c1b3af77baf95"
+        },
+        {
+            "uri": "spotify:track:1z5wfkrtyeO1moXEbubJuN",
+            "name": "GAS GAS GAS - Yuta Imai Extended Remix",
+            "artists_str": "Manuel, Yuta Imai",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27331fc4f77b24115e031db839a"
+        },
+        {
+            "uri": "spotify:track:1K4iAuwC7o6O2mAb5CqzZn",
+            "name": "ALTER EGO",
+            "artists_str": "Yuta Imai, Qlarabelle",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273298dca8183e7456019cf444b"
+        },
+        {
+            "uri": "spotify:track:4DgTMuDws4VbpXf7VYOJfj",
+            "name": "Re:Verse (Instrumental)",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27357c8c4dfa6e14f80644912f6"
+        },
+        {
+            "uri": "spotify:track:5QvnkG3CTE15m5KXnq2R8s",
+            "name": "1nput This 2 Y0ur Spine",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f9cfbf4187cef596c5f8df9c"
+        },
+        {
+            "uri": "spotify:track:6Ml6PAxcqdZJMI3VpGMWn4",
+            "name": "BAD ACCESS (FROM A MOE MAID)",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273f9cfbf4187cef596c5f8df9c"
+        },
+        {
+            "uri": "spotify:track:4RxL0iXcJZcEjDIsrJG17e",
+            "name": "Introduction - Xursed Divinitiy",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273e3902cebfef41bf25f665e7f"
+        },
+        {
+            "uri": "spotify:track:4ZRnZPBLGoRZQKZhFvTc7S",
+            "name": "Ratio'd + Cringed + Scratched",
+            "artists_str": "Camellia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27328a78b1eac2c2a49d18fcd5b"
+        }
+    ],
+    "total_songs_in_playlist": 46
+}

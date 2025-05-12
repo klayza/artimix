@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Artimix - Fluid Playlists</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			body {
+				font-family: 'Press Start 2P', cursive;
+				background-color: #000000;
+				color: #ffffff;
+				image-rendering: pixelated; /* Enhance pixelated font rendering */
+			}
+			/* Custom scrollbar for a retro feel */
+			::-webkit-scrollbar {
+				width: 12px;
+			}
+			::-webkit-scrollbar-track {
+				background: #222;
+			}
+			::-webkit-scrollbar-thumb {
+				background: #555;
+				border: 2px solid #222;
+			}
+			::-webkit-scrollbar-thumb:hover {
+				background: #777;
+			}
+
+			.retro-header {
+				background-color: #a00000; /* Dark Red */
+				background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+					linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+				background-size: 15px 15px; /* Grid size */
+				padding: 1rem 1.5rem;
+				border-bottom: 4px solid #600000; /* Darker Red Border */
+				text-align: center;
+			}
+			.retro-header h1 {
+				font-size: 2rem; /* Larger for pixel font */
+				color: #ffffff;
+				text-shadow: 2px 2px #000000;
+			}
+			.retro-container {
+				background-color: #111111;
+				border: 4px solid #444444;
+				border-radius: 0px; /* Sharp corners for retro look */
+				box-shadow: 0 0 0 4px #000000, 0 0 0 8px #444444; /* Double border effect */
+			}
+			.retro-button {
+				font-family: 'Press Start 2P', cursive;
+				background-color: #ffffcc; /* Pale Yellow */
+				color: #000000;
+				border: 2px solid #000000;
+				padding: 0.75rem 1rem;
+				text-transform: uppercase;
+				box-shadow: 3px 3px 0px #000000;
+				transition: all 0.1s ease-out;
+				cursor: pointer;
+				font-size: 0.875rem; /* Adjust for pixel font */
+			}
+			.retro-button:hover {
+				background-color: #ffffaa;
+				box-shadow: 1px 1px 0px #000000;
+				transform: translate(2px, 2px);
+			}
+			.retro-button-secondary {
+				background-color: #555555;
+				color: #ffffcc;
+				border-color: #ffffcc;
+			}
+			.retro-button-secondary:hover {
+				background-color: #444444;
+				color: #ffffcc;
+			}
+			.retro-button-link {
+				/* For logout or less prominent actions */
+				font-family: 'Press Start 2P', cursive;
+				color: #ffffcc;
+				text-decoration: none;
+				font-size: 0.75rem;
+			}
+			.retro-button-link:hover {
+				color: #ffffff;
+			}
+
+			.retro-input,
+			.retro-select {
+				font-family: 'Roboto Mono', monospace; /* More readable for input */
+				background-color: #ffffcc;
+				color: #000000;
+				border: 2px solid #000000;
+				padding: 0.5rem;
+				width: 100%;
+				font-size: 1rem;
+				border-radius: 0;
+			}
+			.retro-input::placeholder {
+				color: #555;
+			}
+			.retro-label {
+				color: #ffffff;
+				margin-bottom: 0.25rem;
+				display: block;
+				font-size: 0.75rem; /* Smaller for pixel font */
+			}
+			.retro-fieldset {
+				border: 2px solid #ffffcc;
+				padding: 1rem;
+				margin-bottom: 1rem;
+			}
+			.retro-legend {
+				color: #ffffcc;
+				padding: 0 0.5rem;
+				font-size: 0.875rem;
+			}
+			.suggestions-container {
+				font-family: 'Roboto Mono', monospace;
+				max-height: 150px;
+				overflow-y: auto;
+				border: 2px solid #000;
+				background-color: #ffffcc;
+				position: absolute;
+				z-index: 10;
+				width: 100%;
+				color: #000;
+			}
+			.suggestions-container div {
+				padding: 6px 10px;
+				cursor: pointer;
+				display: flex;
+				align-items: center;
+				border-bottom: 1px solid #00000040;
+			}
+			.suggestions-container div:last-child {
+				border-bottom: none;
+			}
+			.suggestions-container div:hover {
+				background-color: #ffffaa;
+			}
+			.artist-suggestion-item img {
+				width: 30px;
+				height: 30px;
+				margin-right: 8px;
+				object-fit: cover;
+				border: 1px solid #000;
+			}
+
+			.user-info-box {
+				background-color: #222;
+				border: 2px solid #555;
+				padding: 0.5rem 1rem;
+				font-size: 0.75rem;
+			}
+			.user-info-box .user-avatar {
+				width: 30px;
+				height: 30px;
+				border-radius: 0;
+				margin-right: 8px;
+				border: 1px solid #ffffcc;
+			}
+			.error-message-box {
+				background-color: #a00000;
+				border: 2px solid #ff0000;
+				color: #ffffcc;
+				padding: 1rem;
+				margin-bottom: 1rem;
+				font-size: 0.75rem;
+			}
+			.remove-artist-btn {
+				font-family: 'Press Start 2P', cursive;
+				background-color: #a00000;
+				color: #ffffcc;
+				border: 1px solid #ffffcc;
+				padding: 0.2rem 0.4rem;
+				font-size: 0.6rem;
+				text-transform: uppercase;
+			}
+			.remove-artist-btn:hover {
+				background-color: #600000;
+			}
+		</style>
+	</head>
+	<body class="p-4">
+		<div class="retro-header mb-8">
+			<h1>Artimix</h1>
+		</div>
+
+		<div class="retro-container p-6 sm:p-8 w-full max-w-2xl mx-auto">
+			<header class="mb-6 text-center">
+				<p class="text-sm text-gray-400 mb-4" style="font-family: 'Roboto Mono', monospace">
+					Craft fluid playlists by blending your favorite artists.
+				</p>
+
+				{% if user_logged_in and user_info %}
+				<div class="user-info-box inline-flex items-center justify-center">
+					{% if user_info.image %}
+					<img src="{{ user_info.image }}" alt="{{ user_info.name }}" class="user-avatar" />
+					{% endif %}
+					<span
+						>Welcome, <span class="text-yellow-300">{{ user_info.name }}</span>!
+						<a href="{{ url_for('logout') }}" class="retro-button-link ml-2">[LOGOUT]</a></span
+					>
+				</div>
+				{% elif user_logged_in %}
+				<div class="user-info-box inline-block">
+					<span
+						>Welcome!
+						<a href="{{ url_for('logout') }}" class="retro-button-link ml-2">[LOGOUT]</a></span
+					>
+				</div>
+				{% else %}
+				<a href="{{ url_for('login') }}" class="retro-button inline-block"> Login with Spotify </a>
+				{% endif %}
+			</header>
+
+			{% if error_message %}
+			<div class="error-message-box" role="alert">
+				<strong>ERROR:</strong>
+				<span>{{ error_message }}</span>
+			</div>
+			{% endif %} {% if user_logged_in %}
+			<main>
+				<form action="{{ url_for('generate_preview_route') }}" method="post" id="playlistForm">
+					<div class="mb-6">
+						<label for="playlist_name" class="retro-label">Playlist Name:</label>
+						<input
+							type="text"
+							id="playlist_name"
+							name="playlist_name"
+							value="My Artimix Mix"
+							required
+							class="retro-input"
+						/>
+					</div>
+
+					<fieldset class="retro-fieldset">
+						<legend class="retro-legend">Artists Mix</legend>
+						<div id="artists-container" class="space-y-6"></div>
+						<button
+							type="button"
+							id="addArtistBtn"
+							class="retro-button retro-button-secondary mt-4 text-xs"
+						>
+							+ Add Artist
+						</button>
+					</fieldset>
+
+					<button type="submit" class="retro-button w-full mt-8">Generate Playlist Preview</button>
+				</form>
+			</main>
+			{% elif not error_message %}
+			<p class="text-center text-gray-400 mt-6" style="font-family: 'Roboto Mono', monospace">
+				Please login with Spotify to create playlists.
+			</p>
+			{% endif %}
+		</div>
+		<footer class="mt-8 text-center">
+			<p class="text-xs text-gray-600">&copy; Artimix {{ current_year }}</p>
+		</footer>
+
+		<script>
+			const artistsContainer = document.getElementById('artists-container')
+			const addArtistBtn = document.getElementById('addArtistBtn')
+			let artistInputCounter = 0
+			let debounceTimer
+
+			function createArtistInputGroup() {
+				artistInputCounter++
+				const index = artistInputCounter
+
+				const div = document.createElement('div')
+				div.className = 'artist-input-group bg-black/20 p-4 border border-gray-700'
+				div.id = `artist-group-${index}`
+
+				let removeButtonHTML = ''
+				// Show remove button if it's not the very first artist input group being added.
+				// artistsContainer.children.length will be 0 when the first group is about to be added.
+				if (artistsContainer.children.length >= 1 || artistInputCounter > 1) {
+					removeButtonHTML = `<button type="button" class="remove-artist-btn" onclick="removeArtistGroup('artist-group-${index}')">X</button>`
+				}
+
+				// Carefully constructed template literal for the artist input group's HTML
+				div.innerHTML = `
+                <div class="flex items-center justify-between mb-2">
+                    <h4 class="text-sm text-gray-300">Artist ${
+											artistsContainer.children.length + 1
+										}</h4>
+                    ${removeButtonHTML}
+                </div>
+                <div class="relative">
+                    <label for="artist_${index}" class="retro-label">Artist Name / Spotify URL:</label>
+                    <input type="text" id="artist_${index}" name="artist_${index}" placeholder="Type name or paste URL..."
+                           class="retro-input artist-name-input"
+                           autocomplete="off" data-artist-index="${index}">
+                    <div class="suggestions-container hidden" id="suggestions-for-artist_${index}"></div>
+                </div>
+                <div class="mt-3">
+                    <label for="percentage_${index}" class="retro-label">Percentage (%):</label>
+                    <input type="number" id="percentage_${index}" name="percentage_${index}" min="1" max="100" placeholder="e.g., 30" required
+                           class="retro-input">
+                </div>
+                <input type="hidden" id="artist_id_${index}" name="artist_id_${index}">
+                <input type="hidden" id="artist_name_spotify_${index}" name="artist_name_spotify_${index}">
+            ` // Closing backtick for div.innerHTML
+				artistsContainer.appendChild(div)
+				attachSuggestionListener(document.getElementById(`artist_${index}`))
+			}
+
+			function removeArtistGroup(groupId) {
+				const groupElement = document.getElementById(groupId)
+				if (groupElement) {
+					groupElement.remove()
+					// Re-label existing artist groups after removal
+					const remainingGroups = artistsContainer.querySelectorAll('.artist-input-group')
+					remainingGroups.forEach((group, idx) => {
+						const heading = group.querySelector('h4')
+						if (heading) {
+							heading.textContent = `Artist ${idx + 1}`
+						}
+					})
+				}
+			}
+
+			function attachSuggestionListener(inputElement) {
+				inputElement.addEventListener('input', function (e) {
+					const query = e.target.value
+					const artistIndex = e.target.dataset.artistIndex
+					const suggestionsBox = document.getElementById(`suggestions-for-artist_${artistIndex}`)
+
+					clearTimeout(debounceTimer)
+					const minQueryLength = query.toLowerCase().startsWith('http') ? 5 : 2
+
+					if (query.length < minQueryLength) {
+						suggestionsBox.innerHTML = ''
+						suggestionsBox.classList.add('hidden')
+						return
+					}
+
+					debounceTimer = setTimeout(() => {
+						// Correctly formed template literal for the fetch URL
+						fetch(`/suggest_artists?query=${encodeURIComponent(query)}`)
+							.then((response) => response.json())
+							.then((data) => {
+								suggestionsBox.innerHTML = ''
+								if (data.error) {
+									console.error('Suggestion error:', data.error)
+									suggestionsBox.classList.add('hidden')
+									return
+								}
+								if (data.length > 0) {
+									data.forEach((artist) => {
+										const item = document.createElement('div')
+										item.className = 'artist-suggestion-item'
+										// Correctly formed template literal for imgTag, and single quotes for the alternative
+										let imgTag = artist.image_url
+											? `<img src="${artist.image_url}" alt="${artist.name}">`
+											: '<div class="w-[30px] h-[30px] bg-black/50 border border-black flex items-center justify-center text-xs mr-2">?</div>'
+										// Correctly formed template literal for item.innerHTML
+										item.innerHTML = `${imgTag}<span>${artist.name}</span>`
+										item.onclick = () => {
+											inputElement.value = artist.name
+											document.getElementById(`artist_id_${artistIndex}`).value = artist.id
+											document.getElementById(`artist_name_spotify_${artistIndex}`).value =
+												artist.name
+											suggestionsBox.innerHTML = ''
+											suggestionsBox.classList.add('hidden')
+										}
+										suggestionsBox.appendChild(item)
+									})
+									suggestionsBox.classList.remove('hidden')
+								} else {
+									suggestionsBox.classList.add('hidden')
+								}
+							})
+							.catch((error) => {
+								console.error('Error fetching suggestions:', error)
+								suggestionsBox.classList.add('hidden')
+							})
+					}, 300)
+				})
+
+				// Hide suggestions when clicking outside the input and its suggestion box
+				document.addEventListener('click', function (event) {
+					if (
+						suggestionsBox &&
+						!inputElement.contains(event.target) &&
+						!suggestionsBox.contains(event.target)
+					) {
+						suggestionsBox.classList.add('hidden')
+					}
+				})
+			}
+
+			addArtistBtn.addEventListener('click', () => {
+				createArtistInputGroup()
+			})
+
+			// Add one artist input group by default when the page loads
+			createArtistInputGroup()
+		</script>
+	</body>
+</html>

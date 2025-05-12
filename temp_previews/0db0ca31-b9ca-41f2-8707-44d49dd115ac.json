@@ -1,0 +1,128 @@
+{
+    "playlist_name": "My Artimix Playlist",
+    "track_uris": [
+        "spotify:track:1d14xCnYqUAIWZiGJnqg8D",
+        "spotify:track:080HOFjmE0gEJd0xwa0iih",
+        "spotify:track:2o3zveNIrVnNpfEzWIoCxF",
+        "spotify:track:7tqx7Wk2MZPmWTk3TcMPwA",
+        "spotify:track:3xTCCCfsxlMiMGJnVrxxbf",
+        "spotify:track:0egMgUvnfa6GYslUzPHdXD",
+        "spotify:track:6NtvefY27SMplclIsZIeze",
+        "spotify:track:3znxGXgqcptvKXlALQ7lJr",
+        "spotify:track:4mRzhPKZIWh6PBvVhhycxE",
+        "spotify:track:5FE6k0sYQJZ16qMHGBdQ0W",
+        "spotify:track:5telEiKjc5U1fOmBVxfWcD",
+        "spotify:track:7cVLZXN8MVngLeYp6Xd72U",
+        "spotify:track:0AiAylKZeox3nGb9BStbuT",
+        "spotify:track:6HfkN6vkcjQVgXJrFJRUJj",
+        "spotify:track:1uV0CWUdkCXBLyDRgLMOx9",
+        "spotify:track:1oovcUkQqKOTr8REzFio2t"
+    ],
+    "artist_contributions": [
+        {
+            "name": "Laur",
+            "image_url": "https://i.scdn.co/image/ab6761610000e5eb76df08a9224db83a4981d25d",
+            "count": 16,
+            "requested_percentage": 20
+        }
+    ],
+    "tracks_for_preview_display": [
+        {
+            "uri": "spotify:track:1d14xCnYqUAIWZiGJnqg8D",
+            "name": "Sound Chimera",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2737af84b3f5076f47718f1af88"
+        },
+        {
+            "uri": "spotify:track:080HOFjmE0gEJd0xwa0iih",
+            "name": "Exitium - tpz Despair Remix",
+            "artists_str": "Laur, t+pazolite",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ff6e4dd9e868091d0634a78e"
+        },
+        {
+            "uri": "spotify:track:2o3zveNIrVnNpfEzWIoCxF",
+            "name": "Determination (feat. Itsuki Natsume)",
+            "artists_str": "Laur, \u68d7\u3044\u3064\u304d",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ab5c4020fa71d2c77202d567"
+        },
+        {
+            "uri": "spotify:track:7tqx7Wk2MZPmWTk3TcMPwA",
+            "name": "Collision",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c06817351d36910bcde5d09c"
+        },
+        {
+            "uri": "spotify:track:3xTCCCfsxlMiMGJnVrxxbf",
+            "name": "Viyella's Nightmare",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ff6e4dd9e868091d0634a78e"
+        },
+        {
+            "uri": "spotify:track:0egMgUvnfa6GYslUzPHdXD",
+            "name": "Scarlet Garland",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c06817351d36910bcde5d09c"
+        },
+        {
+            "uri": "spotify:track:6NtvefY27SMplclIsZIeze",
+            "name": "Exitium - Extended",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b27362b3e49f7bd625843f3fe94b"
+        },
+        {
+            "uri": "spotify:track:3znxGXgqcptvKXlALQ7lJr",
+            "name": "Diabolic Enemy",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c06817351d36910bcde5d09c"
+        },
+        {
+            "uri": "spotify:track:4mRzhPKZIWh6PBvVhhycxE",
+            "name": "Afflict - Instrumental Ver",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ab5c4020fa71d2c77202d567"
+        },
+        {
+            "uri": "spotify:track:5FE6k0sYQJZ16qMHGBdQ0W",
+            "name": "With You (feat. Tia)",
+            "artists_str": "Laur, Tia",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2732013ef0fdd01b81551834514"
+        },
+        {
+            "uri": "spotify:track:5telEiKjc5U1fOmBVxfWcD",
+            "name": "Strange Bar",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ff6e4dd9e868091d0634a78e"
+        },
+        {
+            "uri": "spotify:track:7cVLZXN8MVngLeYp6Xd72U",
+            "name": "Viyella's Malice",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c06817351d36910bcde5d09c"
+        },
+        {
+            "uri": "spotify:track:0AiAylKZeox3nGb9BStbuT",
+            "name": "Tragedy of Viyella",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b2732013ef0fdd01b81551834514"
+        },
+        {
+            "uri": "spotify:track:6HfkN6vkcjQVgXJrFJRUJj",
+            "name": "Euphoria",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ff6e4dd9e868091d0634a78e"
+        },
+        {
+            "uri": "spotify:track:1uV0CWUdkCXBLyDRgLMOx9",
+            "name": "Evoke",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273c06817351d36910bcde5d09c"
+        },
+        {
+            "uri": "spotify:track:1oovcUkQqKOTr8REzFio2t",
+            "name": "Vindication - Extended",
+            "artists_str": "Laur",
+            "image_url": "https://i.scdn.co/image/ab67616d0000b273ab5c4020fa71d2c77202d567"
+        }
+    ],
+    "total_songs_in_playlist": 16
+}
