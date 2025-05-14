@@ -19,7 +19,7 @@ app.secret_key = os.getenv("SECRET_KEY")
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 SPOTIPY_REDIRECT_URI = os.getenv("SPOTIPY_REDIRECT_URI")
-SCOPE = "playlist-modify-public playlist-modify-private user-read-private user-read-email"
+SCOPE = "playlist-modify-public playlist-modify-private user-read-private user-read-email user-library-read"
 
 # Directory for temporary preview files
 TEMP_PREVIEW_DIR = 'temp_previews'
@@ -289,6 +289,75 @@ def suggest_artists():
     return jsonify(final_suggestions[:5])
 # MODIFIED FUNCTION ENDS HERE
 
+@app.route("/liked_songs")
+def liked_songs():
+    sp = get_spotify_client()
+    if not sp:
+        return jsonify({"error": "User not authenticated"}), 401
+
+    songs = []
+    try:
+        limit = 50
+        offset = 0
+        while True:
+            results = sp.current_user_saved_tracks(limit=limit, offset=offset)
+            items = results.get('items', [])
+            for item in items:
+                track = item['track']
+                songs.append({
+                    "id": track['id'],
+                    "name": track['name'],
+                    "artists": [artist['name'] for artist in track['artists']],
+                    "uri": track['uri'],
+                    "album": track['album']['name'],
+                    "image_url": track['album']['images'][0]['url'] if track['album']['images'] else None
+                })
+            if len(items) < limit:
+                break
+            offset += limit
+    except Exception as e:
+        return jsonify({"error": f"Could not fetch liked songs: {e}"}), 500
+
+    return jsonify(songs)
+
+
+@app.route("/liked_artists")
+def liked_artists():
+    sp = get_spotify_client()
+    if not sp:
+        return jsonify({"error": "User not authenticated"}), 401
+
+    artist_map = {}
+    try:
+        limit = 50
+        offset = 0
+        while True:
+            results = sp.current_user_saved_tracks(limit=limit, offset=offset)
+            items = results.get('items', [])
+            for item in items:
+                for artist in item['track']['artists']:
+                    if artist['id'] not in artist_map:
+                        artist_map[artist['id']] = {
+                            "id": artist['id'],
+                            "name": artist['name'],
+                            "image_url": None  # This will be populated below.
+                        }
+            if len(items) < limit:
+                break
+            offset += limit
+
+        # Optionally, fetch artist images in batches (Spotify API allows up to 50 IDs per call)
+        artist_ids = list(artist_map.keys())
+        for i in range(0, len(artist_ids), 50):
+            batch_ids = artist_ids[i:i+50]
+            batch_response = sp.artists(batch_ids)
+            for artist in batch_response.get('artists', []):
+                if artist and artist.get('id') in artist_map:
+                    artist_map[artist['id']]['image_url'] = artist['images'][0]['url'] if artist.get('images') else None
+    except Exception as e:
+        return jsonify({"error": f"Could not fetch liked artists: {e}"}), 500
+
+    return jsonify(list(artist_map.values()))
 
 @app.route("/generate_preview", methods=["POST"])
 def generate_preview_route():
